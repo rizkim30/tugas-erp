@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://cdn.tailwindcss.com"></script>
+<title>Dashboard</title>
+</head>
+<body class="bg-slate-100">
+<div class="flex min-h-screen">
+<aside class="w-64 bg-slate-900 text-white p-5">
+<h1 class="text-2xl font-bold">REY ERP</h1>
+<p class="text-slate-400 text-sm mb-6">Sablon DTF</p>
+<nav class="space-y-2">
+<a class="block p-2 hover:bg-slate-800 rounded" href="dashboard.html">Dashboard</a>
+<a class="block p-2 hover:bg-slate-800 rounded" href="sales-order.html">Sales Order</a>
+<a class="block p-2 hover:bg-slate-800 rounded" href="inventory.html">Inventory</a>
+<a class="block p-2 hover:bg-slate-800 rounded" href="finance.html">Finance</a>
+</nav>
+</aside>
+<main class="flex-1 p-8">
+<h1 class='text-3xl font-bold mb-6'>Dashboard</h1>
+<div class='grid grid-cols-4 gap-4'>
+<div class='bg-white p-5 rounded-xl shadow'><h3>Total Order</h3><p class='text-3xl font-bold'>25</p></div>
+<div class='bg-white p-5 rounded-xl shadow'><h3>Order Aktif</h3><p class='text-3xl font-bold'>8</p></div>
+<div class='bg-white p-5 rounded-xl shadow'><h3>Stok Kritis</h3><p class='text-3xl font-bold text-red-500'>3</p></div>
+<div class='bg-white p-5 rounded-xl shadow'><h3>Omzet</h3><p class='text-3xl font-bold text-green-600'>15JT</p></div>
+</div>
+<div class='bg-white mt-6 p-6 rounded-xl shadow'><h2 class='font-bold'>Recent Orders</h2><p>SO001 - PT ABC</p><p>SO002 - Budi</p></div>
+</main>
+</div>
+</body></html>
